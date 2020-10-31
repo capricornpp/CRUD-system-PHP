@@ -1,0 +1,11 @@
+DB= crud_db > TABLE = employee
+
+CREATE TABLE employee (
+	id int(11) NOT NULL  AUTO_INCREMENT PRIMARY KEY,
+    name varchar(50) NOT NULL,
+    address varchar(255) NOT NULL,
+    salary int(20) NOT NULL
+);
+
+INSERT INTO `employees` 
+(`id`, `name`, `address`, `salary`) VALUES (NULL, 'Somchai', '123/456', '10000');
